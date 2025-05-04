@@ -1,0 +1,14 @@
+{
+  "name": "Python + C++17 Dev",
+  "context": "..",
+  "dockerFile": "../Dockerfile",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-vscode.cpptools"
+  ],
+  "postCreateCommand": "echo 'Dev container ready!'",
+  "remoteUser": "root"
+}
