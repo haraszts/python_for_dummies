@@ -1,7 +1,10 @@
-from math_utils.math_utils import add
-from math_utils.math_utils import subtract
-from math_utils.math_utils import multiply
-from math_utils.math_utils import divide
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from math_utils.math_utils import add, subtract, multiply, divide
+
 def interpret(input_str):
     parts = input_str.strip().split()
 
