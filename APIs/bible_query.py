@@ -1,3 +1,5 @@
+# As an input, you write the English version of a Bible verse
+# And it queries that verse from the given parameters
 import requests
 def get_bible_verse(reference):
     url = f"http://bible_api.com/{reference.replace(' ', '%20')}"
@@ -12,4 +14,3 @@ def get_bible_verse(reference):
 
 ref = input()
 get_bible_verse(ref)
-#nincs tesztelve még
